@@ -5,21 +5,18 @@ This repository contains all the project files for the first group hackathon in 
 ## Table of Contents
 
 1. [Project Overview & Goal](#1-project-overview-goal)
-2. [Technical Stack](#2-technical-stack)
-3. [ETL Pipeline and Transformation Summary](#3-etl-pipeline-and-transformation-summary)
-4. [How to Run the Project Locally](#4-how-to-run-the-project-locally)
+2. [Tools & Technologies](#2-tools-tech)
+3. [Target Audience](#3-target-audience)
+4. [Expected Deliverables](#4-expected-deliverables)
+5. [How to Run the Project Locally](#5-how-to-run-the-project-locally)
 
 
 ## 1. Project Overview & Goal
 
-### Data Source
-This project utilises the [*Worldwide Travel Cities (Ratings and Climate*](https://www.kaggle.com/datasets/furkanima/worldwide-travel-cities-ratings-and-climate) sourced from Kaggle.
+### Dataset & Source
+This project utilises the [*Worldwide Travel Cities (Ratings and Climate*](https://www.kaggle.com/datasets/furkanima/worldwide-travel-cities-ratings-and-climate) sourced from Kaggle, contains 560 records and 19 attributes.
 
-The dataset provides a comprehensive view of digital habits and lifestyle factors through the following key variables:
-
-- Digital Habits: Daily screen time, preferred social media platform, and days spent without social media (digital detox).
-
-- Mental Health Indicators: Happiness levels, sleep quality, stress scores, and exercise frequency.
+This dataset contains travel information for 560 cities worldwide, including city data (name, country, region, coordinates), descriptive summaries, climate data (monthly avg/min/max temperatures), ideal trip durations, budget levels, and ratings of features of the city such as culture, nature, cuisine, wellness, nightlife, and beaches.
 
 ### Project's Focus
 Our project focuses on analysing global travel destinations using the Worldwide Travel Cities dataset to understand how factors like budget level, climate, and other attributes influence trip choices. We aim to explore patterns in travel ratings, duration preferences, and climate characteristics across 560 cities.
@@ -35,19 +32,6 @@ Our goal for the project was explored using the following research questions. We
 
     Hypothesis: Budget-friendly destinations will be associated with shorter recommended trip durations compared to mid-range and luxury destinations.
 
-## 2. Technical Stack
-
-- **Core Languages:** Python
-- **Data Processing (ETL):** Pandas, NumPy, kagglehub
-- **Visualisation:** Matplotlib (Basic Plotting), Seaborn (Statistical Visuals/Heatmaps), Scipy, Scikit Learn (Machine Learning), Streamlit (Advanced Interactive Charts) and Tableau (Visualisation)
-- **Version Control:** Git & GitHub
-
-
-## 3. ETL Pipeline and Transformation Summary
-The data used is the [*Worldwide Travel Cities (Ratings and Climate*](https://www.kaggle.com/datasets/furkanima/worldwide-travel-cities-ratings-and-climate), containing 560 records and 19 attributes.
-
-"Discuss here any issues with the data when cleaning"
-
 ### Categorical Variables (No Encoding)
 
 
@@ -62,7 +46,41 @@ The data used is the [*Worldwide Travel Cities (Ratings and Climate*](https://ww
 ## Final Summary
 
 
-## 4. How to Run the Project Locally
+## 2. Tools & Technologies
+
+- **Trello**
+- **Python, Pandas, NumPy, Matplotlib, Seaborn** 
+- **Jupyter Notebook** 
+- **GitHub (Version Control)**
+- **Streamlit (interactive dashboard)**
+- **Tableau Public (dashboard)** 
+
+
+## 3. Target Audience 
+
+The dashboard and interactive tool are intended for:
+
+**1. Travellers who want help choosing a destination -** Those looking for travel suggestions based on a budget, continent, climate, or travel style.
+
+**2. Tourism platforms exploring location insights -** For travel related companies, such as airlines or package holidays companies that are looking for data insights to optimise their offerings.
+
+
+## 4. Expected Deliverables
+
+Our final outputs for the hackathon will be:
+
+- Clean, structured dataset ready for analysis
+
+- Power BI/Tableau dashboard with interactive visuals
+
+- Streamlit mini-app for destination recommendations
+
+ -Project documentation (e.g. README, Project Proposal etc)
+
+- Final presentation summarising findings, insights, and recommendations
+
+  
+## 5. How to Run the Project Locally
 
 ### Clone the Repository
 
