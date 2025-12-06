@@ -32,19 +32,6 @@ Our goal for the project was explored using the following research questions. We
 
     Hypothesis: Budget-friendly destinations will be associated with shorter recommended trip durations compared to mid-range and luxury destinations.
 
-### Categorical Variables (No Encoding)
-
-
-## Key Findings
-
-**Question 1:**
-
-
-**Question 2:**
-
-
-## Final Summary
-
 
 ## 2. Tools & Technologies
 
