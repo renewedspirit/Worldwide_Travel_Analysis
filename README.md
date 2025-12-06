@@ -1,5 +1,5 @@
-# Worldwide Travel Analysis
-
+![travel icon](https://www.freeiconspng.com/uploads/hajj-and-umrah-travel-icon-24.png)
+# Worldwide Travel Analysis 
 This repository contains all the project files for the first group hackathon in Code Institute's, Data Analytics with AI bootcamp.
 
 ## Table of Contents
