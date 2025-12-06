@@ -44,9 +44,9 @@ Our goal for the project was explored using the following research questions. We
 
 
 ## 3. ETL Pipeline and Transformation Summary
-The data used is the [*Worldwide Travel Cities (Ratings and Climate*](https://www.kaggle.com/datasets/furkanima/worldwide-travel-cities-ratings-and-climate), containing 500 records and 10 attributes.
+The data used is the [*Worldwide Travel Cities (Ratings and Climate*](https://www.kaggle.com/datasets/furkanima/worldwide-travel-cities-ratings-and-climate), containing 560 records and 19 attributes.
 
-"Discuss any issues with the data when cleaning"
+"Discuss here any issues with the data when cleaning"
 
 ### Categorical Variables (No Encoding)
 
