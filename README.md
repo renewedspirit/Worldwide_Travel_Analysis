@@ -75,7 +75,7 @@ Our final outputs for the hackathon will be:
 
 - Streamlit mini-app for destination recommendations
 
- -Project documentation (e.g. README, Project Proposal etc)
+- Project documentation (e.g. README, Project Proposal etc)
 
 - Final presentation summarising findings, insights, and recommendations
 
