@@ -8,4 +8,11 @@ node_modules/
 .github/
 cloudinary_python.txt
 kaggle.json
-.venv/
+*/.ipynb_checkpoints/
+
+# Ignore the entire virtual environment folder
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
