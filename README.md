@@ -72,9 +72,9 @@ Our final outputs for the hackathon will be:
 ### Clone the Repository
 
 ```bash
-git clone [https://github.com/miteshbkumar-ship-it/social_mental_health_project]
+git clone [https://github.com/renewedspirit/Worldwide_Travel_Analysis]
 
-cd social_mental_health_project
+cd Worldwide_Travel_Analysis
 ```
 
 ### Install Dependencies
