@@ -11,6 +11,7 @@ This repository contains all the project files for the first group hackathon in 
 5. [Data Transformation Summary](#5-data-transformation-summary)
 6. [How to Run the Project Locally](#6-how-to-run-the-project-locally)
 
+<br>
 
 ## 1. Project Overview & Goal
 
@@ -33,6 +34,7 @@ Our goal for the project was explored using the following research questions. We
 
     Hypothesis: Budget-friendly destinations will be associated with shorter recommended trip durations compared to mid-range and luxury destinations.
 
+<br>
 
 ## 2. Tools & Technologies
 
@@ -43,6 +45,7 @@ Our goal for the project was explored using the following research questions. We
 - **Streamlit (interactive dashboard)**
 - **Tableau Public (dashboard)** 
 
+<br>
 
 ## 3. Target Audience 
 
@@ -52,6 +55,7 @@ The dashboard and interactive tool are intended for:
 
 **2. Tourism platforms exploring location insights -** For travel related companies, such as airlines or package holidays companies that are looking for data insights to optimise their offerings.
 
+<br>
 
 ## 4. Expected Deliverables
 
@@ -67,6 +71,8 @@ Our final outputs for the hackathon will be:
 
 - Final presentation summarising findings, insights, and recommendations
 
+<br>
+
 ## 5. Data Transformation Summary
 
 | Original Column / Feature                                                                                               | Transformation Applied                                                                                           | New Column(s) Created                                                       | Purpose / Notes                                                          |
@@ -79,9 +85,8 @@ Our final outputs for the hackathon will be:
 |`short_description`                                                                                                     | Kept for dashboard dataset, then deleted for analysis                                                                                    | —                                                                           | Needed for Streamlit recommendations.                                    |
 | `latitude`, `longitude`                                                                                                 | Kept unchanged for dashboard dataset, then deleted for analysis                                                                                                   | —                                                                           | Used for mapping visualisations (even if not used in notebook analysis). |
 
+<br>
 
-
-  
 ## 6. How to Run the Project Locally
 
 ### Clone the Repository
