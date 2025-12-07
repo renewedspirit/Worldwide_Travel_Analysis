@@ -8,7 +8,7 @@ This repository contains all the project files for the first group hackathon in 
 2. [Tools & Technologies](#2-tools-tech)
 3. [Target Audience](#3-target-audience)
 4. [Expected Deliverables](#4-expected-deliverables)
-5. [Data Transformation Summary](5#data-transformation-summary)
+5. [Data Transformation Summary](#5-data-transformation-summary)
 6. [How to Run the Project Locally](#6-how-to-run-the-project-locally)
 
 
