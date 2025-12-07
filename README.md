@@ -8,7 +8,8 @@ This repository contains all the project files for the first group hackathon in 
 2. [Tools & Technologies](#2-tools-tech)
 3. [Target Audience](#3-target-audience)
 4. [Expected Deliverables](#4-expected-deliverables)
-5. [How to Run the Project Locally](#5-how-to-run-the-project-locally)
+5. [Data Transformation Summary](5#data-transformation-summary)
+6. [How to Run the Project Locally](#6-how-to-run-the-project-locally)
 
 
 ## 1. Project Overview & Goal
@@ -66,8 +67,22 @@ Our final outputs for the hackathon will be:
 
 - Final presentation summarising findings, insights, and recommendations
 
+## 5. Data Transformation Summary
+
+| Original Column / Feature                                                                                               | Transformation Applied                                                                                           | New Column(s) Created                                                       | Purpose / Notes                                                          |
+| ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| `id`                                                                                                                    | Dropped                                                                                                          | —                                                                           | Not useful for analysis; default index replaces it.                      |
+| `avg_temp_monthly`                                                                                                      | Parsed JSON-like string → extracted monthly averages → calculated annual mean → dropped after feature extraction | `annual_avg_temp`                                                           | Simplifies climate data into one metric for analysis.                    |
+| `ideal_durations`                                                                                                       | Converted from string list into Python list using `ast.literal_eval`→ Split into multiple binary indicator → Dropped after creating columns                                                                     | `is_short_trip`, `is_one_week`, `is_long_trip`, `is_weekend`, `is_day_trip` | Enables filtering, grouping, and correlation analysis.                   |
+| `budget_level`                                                                                                          | Encoded categories into numbers (e.g., Budget=1, Mid-range=2, Luxury=3)                                          | —                                                                           | Makes the column usable for numerical analysis.                          |
+| Ratings Columns (`culture`, `adventure`, `nature`, `beaches`, `nightlife`, `cuisine`, `wellness`, `urban`, `seclusion`) | Combined using mean                                                                                              | `city_rating`                                                               | Creates overall score; representing appeal.                 |
+|`short_description`                                                                                                     | Kept for dashboard dataset, then deleted for analysis                                                                                    | —                                                                           | Needed for Streamlit recommendations.                                    |
+| `latitude`, `longitude`                                                                                                 | Kept unchanged for dashboard dataset, then deleted for analysis                                                                                                   | —                                                                           | Used for mapping visualisations (even if not used in notebook analysis). |
+
+
+
   
-## 5. How to Run the Project Locally
+## 6. How to Run the Project Locally
 
 ### Clone the Repository
 
