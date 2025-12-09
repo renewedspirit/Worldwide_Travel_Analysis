@@ -4,12 +4,13 @@ This repository contains all the project files for the first group hackathon in 
 
 ## Table of Contents
 
-1. [Project Overview & Goal](#1-project-overview-goal)
-2. [Tools & Technologies](#2-tools-tech)
+1. [Project Overview & Goal](#1-project-overview--goal)
+2. [Tools & Technologies](#2-tools--technologies)
 3. [Target Audience](#3-target-audience)
 4. [Expected Deliverables](#4-expected-deliverables)
 5. [Data Transformation Summary](#5-data-transformation-summary)
 6. [How to Run the Project Locally](#6-how-to-run-the-project-locally)
+7. [Team Members & Roles (Team C)](#7-team-members--roles-team-c)
 
 <br>
 
@@ -118,6 +119,30 @@ streamlit run dashboard_app.py
 
 Open `spf_analysis.ipynb` and run all cells sequentially. The notebook will automatically download the data, run the ETL pipeline, and generate all seaborn/matplotlib visualizations.
 
+<br>
 
+## 7. Team Members & Roles (Team C)
+These were the team members involved in this project and their main roles:
 
-Created by Team C: **Anisa, Bhavita, Kanyinsola and Lola**
+#### Data Architect - Kanyinsola F.  
+- Responsible for designing the structure of the dataset used for analysis.  
+- Led the ETL process, including cleaning, transforming, and feature engineering.  
+- Ensured the data was consistent, well-organised, and ready for modelling and visualisation. 
+
+#### Data Analysts - Bhavita L. & Lola C. 
+- Conducted exploratory data analysis and investigated the key research questions.  
+- Developed visualisations to uncover trends and support insights.  
+- Worked closely with the data architect to interpret transformed features.
+
+#### Dashboard Developer - Anisa N.
+- Built the interactive dashboard and visualisations (Tableau).  
+- Designed user-friendly layouts and filter systems for exploring the data.  
+- Integrated insights into visual storytelling for the final project deliverables.
+
+#### Project Management (Shared Role)
+All team members contributed to project coordination, including:  
+- Planning and outlining the project proposal  
+- Managing the Trello board and tracking progress  
+- Organising meetings, task distribution, and collaborative documentation  
+- Preparing materials for the final presentation
+
