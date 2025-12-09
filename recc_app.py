@@ -48,7 +48,8 @@ with col1:
 
     t_length = st.selectbox(
         "Trip Length",
-        ["All"] + sorted(
+        ["All"]
+        + sorted(
             [
                 "Day Trip (1 Days)",
                 "Weekend (2 Days)",
@@ -59,7 +60,39 @@ with col1:
         ),
     )
 
-    city_features = df[df['culture', 'adventure', 'nature', 'beaches', 'nightlife', 'cuisine', 'wellness', 'urban', 'seclusion']].columns.tolist()
+    # Create the list of column names directly
+    city_features = [
+        "culture",
+        "adventure",
+        "nature",
+        "beaches",
+        "nightlife",
+        "cuisine",
+        "wellness",
+        "urban",
+        "seclusion",
+    ]
 
-    feauture_pref = st.selectbox(
-        "City Features", ["All"] + sorted(df["city_features"]))
+    city_features = [feature.capitalize() for feature in city_features]
+
+    # Use the list to populate the Streamlit select box
+    feature_pref = st.selectbox(
+        "City Features",
+        ["All"] + sorted(city_features),  # Corrected: uses the 'city_features' variable
+    )
+
+    # city_features = df[
+    #     [
+    #         "culture",
+    #         "adventure",
+    #         "nature",
+    #         "beaches",
+    #         "nightlife",
+    #         "cuisine",
+    #         "wellness",
+    #         "urban",
+    #         "seclusion",
+    #     ]
+    # ].columns.tolist()
+    # # city_features = np.strings.capitalize(city_features)
+    # feauture_pref = st.selectbox("City Features", ["All"] + sorted(df[city_features]))
