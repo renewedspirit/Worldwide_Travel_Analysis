@@ -13,6 +13,19 @@ st.set_page_config(
     layout="wide",
 )
 
+def filter_cities(df, budget, region, trip_length):
+    filtered = df.copy()
+
+    if budget != "All":
+        filtered = filtered[filtered["budget_level"] == budget]
+
+    if region != "All":
+        filtered = filtered[filtered["region"].str.capitalize() == region]
+
+    if trip_length != "All":
+        filtered = filtered[filtered["trip_length"] == trip_length]
+
+    return filtered
 
 #  Load Data
 @st.cache_data
@@ -81,18 +94,17 @@ with col1:
         ["All"] + sorted(city_features),  # Corrected: uses the 'city_features' variable
     )
 
-    # city_features = df[
-    #     [
-    #         "culture",
-    #         "adventure",
-    #         "nature",
-    #         "beaches",
-    #         "nightlife",
-    #         "cuisine",
-    #         "wellness",
-    #         "urban",
-    #         "seclusion",
-    #     ]
-    # ].columns.tolist()
-    # # city_features = np.strings.capitalize(city_features)
-    # feauture_pref = st.selectbox("City Features", ["All"] + sorted(df[city_features]))
+    st.markdown(
+        """
+        **Instructions:**
+        - Select your budget level.
+        - Choose a continent or region.
+        - Specify your preferred trip length.
+        - Pick a city feature that interests you.
+        """
+    )
+
+with col2:
+    
+
+st.expander("See full dataset").dataframe(df)
