@@ -15,6 +15,13 @@ def load_data():
     return df
 
 
+# Page Configuration
+st.set_page_config(
+    page_title="Wotrav",
+    page_icon=":flight_departure:",
+    layout="wide",
+)
+
 df_raw = load_data()
 df = df_raw.copy()
 
@@ -23,18 +30,13 @@ feature_cols = [
     "cuisine", "wellness", "urban", "seclusion"
 ]
 
-# Page Configuration
-st.set_page_config(
-    page_title="Worldwide Travel Analysis",
-    page_icon=":flight_departure:",
-    layout="wide",
-)
-
 # App Title and Description
-st.title("Worldwide Travel Analysis Recommendation App :flight_departure:")
+st.title("Wotrav :flight_departure:")
 st.write(
     """
-    This app recommends travel destinations based on user preferences such as budget, region, and trip duration.
+    Get the best travel suggestions with Wotrav. We recommend amazing cities that are personalised to your own preferences.
+    Just select your budget, region, and trip duration, and you've got your next 3 travel destinations.
+    This app is based on the Worldwide Travel Cities Dataset.
     """
 )
 
