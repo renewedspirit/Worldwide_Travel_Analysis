@@ -44,7 +44,7 @@ Our goal for the project was explored using the following research questions. We
 - **Jupyter Notebook** 
 - **GitHub (Version Control)**
 - **Streamlit (interactive dashboard)**
-- **Tableau Public (dashboard)** 
+- **Power BI (dashboard)** 
 
 <br>
 
