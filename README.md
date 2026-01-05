@@ -109,10 +109,10 @@ pip install -r requirements.txt
 
 ### Streamlit Dashboard
 
-Run the streamlit ```dashboard_app.py``` app and it will open automatically in your browser, displaying the interactive plots (Scatter, Sunburst, etc.).
+Run the streamlit ```recc_app.py``` app and it will open automatically in your browser, displaying the interactive plots (Scatter, Sunburst, etc.).
 
 ```bash
-streamlit run dashboard_app.py
+streamlit run recc_app.py
 ```
 
 ### Run the Notebook
